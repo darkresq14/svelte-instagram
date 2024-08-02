@@ -5,6 +5,9 @@
 - TailwindCSS
 - lucide icons
 - fontsource
+- formsnap
+- zod
+- superforms
 
 ## Technologies Used
 
