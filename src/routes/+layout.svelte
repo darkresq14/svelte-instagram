@@ -1,8 +1,10 @@
 <script lang="ts">
-	import '@fontsource-variable/inter';
 	import '../app.css';
+	import '@fontsource-variable/inter';
+	import { ModeWatcher } from 'mode-watcher';
 
 	let { children } = $props();
 </script>
 
+<ModeWatcher />
 {@render children()}

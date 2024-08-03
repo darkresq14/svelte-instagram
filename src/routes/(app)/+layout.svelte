@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Sidebar from '@/components/Sidebar.svelte';
-	import { ModeWatcher } from 'mode-watcher';
 
 	let { children } = $props();
 </script>
 
-<ModeWatcher />
 <Sidebar />
-{@render children()}
+<div class="ml-[73px] py-8 md:ml-[244px]">
+	{@render children()}
+</div>
